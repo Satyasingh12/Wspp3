@@ -6,7 +6,7 @@ module.exports = {
   min_wd:200,// minimum withdrawal amount
   refer_bonus:100,
   joinbal: 10,
-  max_wd:2000,
+  max_wd:10,
   payment_channel:'@FoxDrop1',
   channel: '*👋 Hello ~ Complete YouTube Task:*\n\n 🔹 *Subscribe Our* [YouTube Channel](https://youtube.com/channel/UCuXMNHrfc_NR7832Bj_camg) *Like And Comment on Video*\n\n*🚊 Click "Check" button if done...*',
   welcome:'*🔰 WSPP Giveaway *\n*🎁 Reward Pool: 1000 $USDT*\n*👥 Referral: 100 $WSPP*\n*📛 Winners:* For all valid users \n*🧶 Rate: ⭐️⭐️⭐️⭐️⭐️*\n*🚀 Distribution Date:* Instant to Wallet \n\n*📚 All the Tasks are Mandatory* \n     *🔹 @Airdropsgangster*\n     *🔹 @AirdropUniverseGlobal*\n     *🔹 @Finderop1*\n     *🔹 @Finderop2*\n     *🔹 @FoxDrop1*\n\n ▶️ Subscribe our [Youtube Channel](https://youtube.com/channel/UCuXMNHrfc_NR7832Bj_camg)\n\n*💧 Contract:* `0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f`\n\n*📡 Website: Soon...*',
