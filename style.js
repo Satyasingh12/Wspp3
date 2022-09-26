@@ -525,7 +525,7 @@ twiterhandle.on('text', async (ctx) => {
   let discord = maindata[0].discord
   let sum = maindaata[0].balance
   let insta = maindata[0].insta
-  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ Axion Info ‼️']], resize_keyboard: true } }).then((m) => {
+  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ WSPP Info ‼️']], resize_keyboard: true } }).then((m) => {
     console.log(m.message_id)
     var msid = m.message_id
     db.collection('balance').updateOne({userId: ctx.from.id}, {$set: {msid: msid}}, {upsert: true})
@@ -554,7 +554,7 @@ bot.action(['☑️ Done','Skip ⏭'], async (ctx) => {
   let discord = maindata[0].discord
   let sum = maindaata[0].balance
   let insta = maindata[0].insta
-  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ Axion Info ‼️']], resize_keyboard: true } }).then((m) => {
+  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ WSPP Info ‼️']], resize_keyboard: true } }).then((m) => {
     console.log(m.message_id)
     var msid = m.message_id
     db.collection('balance').updateOne({userId: ctx.from.id}, {$set: {msid: msid}}, {upsert: true})
@@ -579,7 +579,7 @@ bot.action(['☑️ Done','Skip ⏭'], async (ctx) => {
   let discord = maindata[0].discord
   let sum = maindaata[0].balance
   let insta = maindata[0].insta
-  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ Axion Info ‼️']], resize_keyboard: true } }).then((m) => {
+  await ctx.replyWithMarkdown('*👋Hello '+ctx.from.first_name+' || Here is your statics*\n\n*📊 Airdrop Balance: '+sum+' $'+bot_cur+'*\n\n🙇‍♀️* Your personal referral link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id + '*\n\n*👨‍✈️ Telegram: **'+ctx.from.first_name+'*\n*💬 YouTube Link: **'+fb+'*\n*🏦 Wallet Address: *`'+address+'`\n\n‼️ If your submitted data wrong then you can restart the bot and resubmit the data again by clicking /start before airdrop end.', { disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ WSPP Info ‼️']], resize_keyboard: true } }).then((m) => {
     console.log(m.message_id)
       var msid = m.message_id
       db.collection('balance').updateOne({userId: ctx.from.id}, {$set: {msid: msid}}, {upsert: true})
@@ -648,7 +648,7 @@ bot.hears('📎 Referral Link', async (ctx) => {
   
   let allRefs = await db.collection('allUsers').find({inviter: ctx.from.id}).toArray() // all invited users
   ctx.reply(
-  '*🔆 Your Referral Information *\n\n*⛅️ Your Refer link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id +'*\n\n*▪️Your Total Referrals: '+ allRefs.length +' Users*\n\n🌺 *Per Referral '+refer_bonus+' '+cur+'* - `Share Your referral link to your Friends & earn unlimited '+cur+'\n\n🛑 *Special Feature:* after completing all task refer count\n\n`⚠️ *Note*: Fake, empty or spam users are deleted after checking.',  {parse_mode: 'markdown',reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ Axion Info ‼️']], resize_keyboard: true } }).then((m) => {
+  '*🔆 Your Referral Information *\n\n*⛅️ Your Refer link: https://t.me/'+data.bot_username.split('@')[1]+'?start=' + ctx.from.id +'*\n\n*▪️Your Total Referrals: '+ allRefs.length +' Users*\n\n🌺 *Per Referral '+refer_bonus+' '+cur+'* - `Share Your referral link to your Friends & earn unlimited '+cur+'\n\n🛑 *Special Feature:* after completing all task refer count\n\n`⚠️ *Note*: Fake, empty or spam users are deleted after checking.',  {parse_mode: 'markdown',reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ WSPP Info ‼️']], resize_keyboard: true } }).then((m) => {
     console.log(m.message_id)
     var msid = m.message_id
     db.collection('balance').updateOne({userId: ctx.from.id}, {$set: {msid: msid}}, {upsert: true})
@@ -657,11 +657,11 @@ bot.hears('📎 Referral Link', async (ctx) => {
       sendError(err, ctx)
     }
   })
-bot.hears('‼️ Axion Info ‼️', async (ctx) => {
+bot.hears('‼️ WSPP Info ‼️', async (ctx) => {
     ctx.deleteMessage()
    
   console.log(ctx)
-  ctx.replyWithMarkdown(''+data.details+'',{disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ Axion Info ‼️']], resize_keyboard: true } })
+  ctx.replyWithMarkdown(''+data.details+'',{disable_web_page_preview: true, reply_markup: { keyboard: [['📊 Statistics', '📎 Referral Link'], ['📤 Withdraw 📤'],['‼️ WSPP Info ‼️']], resize_keyboard: true } })
   })
   
 bot.hears('📤 Withdraw 📤', async (ctx) => {
@@ -671,7 +671,7 @@ if(ctx.message.chat.type != 'private'){
   }
   
   
-let tgData = await bot.telegram.getChatMember("@Darkweb3", ctx.from.id) // user`s status on the channel
+let tgData = await bot.telegram.getChatMember("@AirdropUniverseGlobal", ctx.from.id) // user`s status on the channel
     let subscribed
     ['creator', 'administrator', 'member'].includes(tgData.status) ? subscribed = true : subscribed = false
 if(subscribed){
@@ -810,7 +810,7 @@ function sendErcToken() {
                } else {
                    console.log(res)
            	var hash = signedTx.transactionHash
-  bot.telegram.sendMessage('@PayoutsWorlds', "<b>📛 New "+bot_cur+" Instant Withdraw</b>\n\n<b>👤 Username:</b><a href='tg://user?id=" + ctx.from.id+ "'>"+ctx.from.first_name+"</a>\n<b>💎 Amount:</b> "+msg+" "+bot_cur+"\n<b>☘️ Transaction ID:</b>\n<a href='https://polygonscan.com//tx/"+hash+"'>" + hash + "</a>\n\n<b>🤖 Bot: "+bot_username+"</b>", { parse_mode: 'html' , disable_web_page_preview: true})
+  bot.telegram.sendMessage('@FoxDrop1', "<b>📛 New "+bot_cur+" Instant Withdraw</b>\n\n<b>👤 Username:</b><a href='tg://user?id=" + ctx.from.id+ "'>"+ctx.from.first_name+"</a>\n<b>💎 Amount:</b> "+msg+" "+bot_cur+"\n<b>☘️ Transaction ID:</b>\n<a href='https://polygonscan.com//tx/"+hash+"'>" + hash + "</a>\n\n<b>🤖 Bot: "+bot_username+"</b>", { parse_mode: 'html' , disable_web_page_preview: true})
     ctx.replyWithMarkdown("✅ Withdrawal successful! Please Check your wallet\n*☘️ Transaction ID:*\n["+hash+"](https://polygonscan.com/tx/"+hash+") \n*🔶 Contract Address:*\n`"+tokenAddress+"`\n*🔶 Network:* [Polygon](https://polygonscan.com/token/"+tokenAddress+") ",{
       disable_web_page_preview:'true',
       parse_mode : 'markdown'
