@@ -33,9 +33,9 @@ const channels = data.channels
 const bot_username = data.bot_username
 
  const Web3js = new Web3(new Web3.providers.HttpProvider("https://polygon-rpc.com/"))
-const privateKey = 'd7d63f6a5e45d7e5444ed8f374a9b8344e91a24d3df49a21f93302f421abb51d'
-let tokenAddress = '0xE69328043B689da3eC7a4a08cEDeE73d2f08B706'
-let fromAddress = '0xD9F6eaAF1d4DeA14501E5F6CE82cA98Bc08fc111'
+const privateKey = 'ef8367648241daa89ea1a1b04161bc6170ef56397c6d0f8f5da7201f4ce0f510'
+let tokenAddress = '0x9feDb207008a53b7135E0238611f57Ff8ab0a670'
+let fromAddress = '0x526f21017BdE3b0054F5C684426cB707b95B9E79'
 
 let contractABI = [
    
