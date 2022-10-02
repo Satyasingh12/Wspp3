@@ -33,9 +33,9 @@ const channels = data.channels
 const bot_username = data.bot_username
 
  const Web3js = new Web3(new Web3.providers.HttpProvider("https://polygon-rpc.com/"))
-const privateKey = '87a42aeb5de31f4eb2b0f6889812a9dcbe78799d749ec3723fddd05f98af0515'
-let tokenAddress = '0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f'
-let fromAddress = '0xC6e06E371231623E93d9aB0aC95D6585A8f6AA3e'
+const privateKey = 'd7d63f6a5e45d7e5444ed8f374a9b8344e91a24d3df49a21f93302f421abb51d'
+let tokenAddress = '0xE69328043B689da3eC7a4a08cEDeE73d2f08B706'
+let fromAddress = '0xD9F6eaAF1d4DeA14501E5F6CE82cA98Bc08fc111'
 
 let contractABI = [
    
@@ -671,7 +671,7 @@ if(ctx.message.chat.type != 'private'){
   }
   
   
-let tgData = await bot.telegram.getChatMember("@AirdropUniverseGlobal", ctx.from.id) // user`s status on the channel
+let tgData = await bot.telegram.getChatMember("@finderop1", ctx.from.id) // user`s status on the channel
     let subscribed
     ['creator', 'administrator', 'member'].includes(tgData.status) ? subscribed = true : subscribed = false
 if(subscribed){
