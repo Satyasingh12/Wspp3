@@ -5,7 +5,7 @@ module.exports = {
   currency:'WolfSafePoorPeople ',
   min_wd:10,// minimum withdrawal amount
   refer_bonus:100,
-  joinbal: 10,
+  joinbal: 1000000,
   max_wd:2000,
   payment_channel:'@FoxDrop1',
   channel: '*👋 Hello ~ Complete YouTube Task:*\n\n 🔹 *Subscribe Our* [YouTube Channel](https://youtube.com/channel/UCuXMNHrfc_NR7832Bj_camg) *Like And Comment on Video*\n\n*🚊 Click "Check" button if done...*',
@@ -19,8 +19,8 @@ module.exports = {
   bot_username:'@WSPP_AutoPay3_Bot',
   channels: ['@Finderop1'],
   channel1: '@finderop2',
-  channel2: '@AirdropUniverseGlobal',
-  channel3: '@Airdropsgangster',
+  channel2: '@finderop2',
+  channel3: '@finderop2',
   channel4: '@foxdrop1',
   channel5: '@foxdrop1',
 }
